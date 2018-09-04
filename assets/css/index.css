@@ -96,3 +96,8 @@ footer {
   color: darkblue;
   padding-top: 10px;
 }
+#submit {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
