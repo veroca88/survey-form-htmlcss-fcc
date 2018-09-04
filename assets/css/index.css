@@ -1,0 +1,98 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: rgba(64, 224, 208, 0.274);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+}
+#title {  
+  font-size: 2em;
+  color: indigo;
+  text-align: center;  
+}
+#description {
+    font-size: 1em;
+    color: rgb(0, 94, 0)
+}
+#survey-form {
+  display: block;
+  margin-top: 2em;
+  color: indigo;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+}
+.responses {
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+  vertical-align: middle;
+}
+#name-label {
+  cursor: default;
+}
+#name {
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+}
+#email-label {
+  cursor: default;
+}
+#email {
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+}
+#number-label {
+  cursor: default;
+}
+#number {
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+  
+}
+.quest-label {
+  cursor: default;
+}
+.answ {
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+}
+#dropdown {
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+}
+#textarea {
+  height: 90px;
+  width: 250px;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #c0fcf7;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+  color: darkblue;
+  padding-top: 10px;
+}

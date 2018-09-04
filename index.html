@@ -1,0 +1,98 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SmartHome Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">Would you like a smarthome?</h1>
+    <div id="description">The importance of technology in our daily lives is undeniable. This is due to the fact that in
+        today’s dynamic world, life without technology is meaningless. Technology, which basically refers to bringing together
+        tools that ease creation, use and exchange of information, has a major goal of making tasks easier to execute as
+        well as solving many mankind’s problems</div>
+    <form id="survey-form">
+        <div class="labels">
+            <label id="name-label" for="name"> Name: </label>
+        </div>
+        <div class="responses"><input autofocus type="text" name="name" id="name" placeholder="Enter your name" required></div>
+        <div class="labels">
+            <label id="email-label" for="email"> Email: </label>
+        </div>
+        <div class="responses"><input autofocus type="email" name="email" id="email" placeholder="email@example.com" required></div>
+        <div class="labels">
+            <label id="number-label" for="age"> Age: </label>
+        </div>
+        <div class="responses"><input autofocus type="number" min="1" max="99" name="age" id="number" placeholder="Enter your age"
+                required></div>
+        <hr>
+        <div class="labels">
+            <label class="quest-label" for="q1"> Do you use digital voice assistants? </label>
+        </div>
+        <div class="responses">
+            <div><input autofocus type="radio" value="yes" name="yesnoq" class="answ">Yes
+                <input autofocus type="radio" value="no" name="yesnoq" class="answ">No
+            </div>
+        </div>
+        <hr>
+        <div class="labels">
+            <label class="quest-label" for="q2"> How do you mainly use your voice assistant device? </label>
+        </div>
+        <div class="responses">
+            <div><input autofocus type="checkbox" name="attribute" class="answ">Play Music or videos
+                <input autofocus type="checkbox" name="attribute" class="answ">Know about the weather
+                <input autofocus type="checkbox" name="attribute" class="answ">Know about the news
+                <input autofocus type="checkbox" name="attribute" class="answ">Control smart home devices
+                <input autofocus type="checkbox" name="attribute" class="answ">Search information
+                <input autofocus type="checkbox" name="attribute" class="answ">Make shopping list
+                <input autofocus type="checkbox" name="attribute" class="answ">To monitor agenda
+                <input autofocus type="checkbox" name="attribute" class="answ">Other
+            </div>
+        </div>
+        <hr>
+        <div class="labels">
+            <label class="quest-label" for="q3"> Which kind of automation solution do you have at home? </label>
+        </div>
+        <div class="responses">
+            <div><input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart window shades
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart leak detectors
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart locks
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart lighting
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart security system
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart thermostats
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">Smart appliances
+                <input autofocus type="checkbox" name="value" value="attribute" class="answ">None
+            </div>
+        </div>
+        <hr>
+        <div class="labels">
+                <label for="q4"> When is the first time you usually open your smartphone? </label>
+            </div>
+            <div class="responses">
+            <select id="dropdown"> 
+                <option value="in-bed">when i first wake-up</option>
+                <option value="breakfast">during breakfast time</option>
+                <option value="way-work">on the way to work</option>
+                <option value="at-work">when i arrive at work</option>
+                <option value="at-night">during the night</option>
+            </select>    
+        </div>
+        <div class="labels">
+                <label class="quest-label" for="q5"> Any additional comment? </label>
+            </div>
+            <div class="responses">
+                <div><textarea id="textarea" placeholder="Enter your comment here!"></textarea>
+                </div>
+            </div>
+
+            <footer><u>Thank you for your time!</u></footer>  
+    </form>
+
+</body>
+
+</html
